@@ -1,0 +1,70 @@
+h1 {
+    text-align: center;
+}
+
+.grid {
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    background: linear-gradient(rgb(114, 204, 240), rgb(147, 222, 147));
+    position: relative;
+    font-size: 200px;
+    text-align: center;
+    border: 3px solid black;
+
+}
+
+.doodler {
+    width: 80px;
+    height: 80px;
+    background: url(https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+
+.platform {
+    width: 85px;
+    height: 15px;
+    background-color: green;
+    position: absolute;
+}
+
+#start {
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 25px;
+    border: 2px solid black;
+    box-shadow: 2px 2px;
+}
+
+#start:hover {
+    background-color: rgba(255, 255, 255, 0.308);
+}
+
+#start:focus {
+    background-color: rgba(255, 255, 255, 0.685);
+}
+
+.reset {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 25px;
+    border: 2px solid black;
+    box-shadow: 2px 2px;
+}
+
+.reset:hover {
+    background-color: rgba(255, 255, 255, 0.308);
+}
+
+.reset:focus {
+    background-color: rgba(255, 255, 255, 0.685);
+}
+
+.hide-button {
+    display: none;
+}
